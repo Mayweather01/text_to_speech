@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: #faf6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    padding: 20px; /* Add padding to the hero for better mobile spacing */
+}
+
+.hero h1 {
+    font-size: 30px; /* Reduce font size for smaller screens */
+    font-weight: 600;
+    margin-top: 0; /* Remove negative margin */
+    margin-bottom: 20px; /* Reduce margin for smaller screens */
+    color: rgb(57, 55, 55);
+    text-align: center; /* Center the text */
+}
+
+textarea {
+    width: 100%; /* Make the textarea full width on smaller screens */
+    height: 200px; /* Reduce height for smaller screens */
+    background: white;
+    color: black;
+    font-size: 16px; /* Reduce font size for smaller screens */
+    border-radius: 15px;
+    outline: 0;
+    padding: 10px;
+    border: 1px solid #ccc; /* Add a border for better styling */
+    resize: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.row {
+    width: 100%; /* Make the row full width on smaller screens */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+    align-items: center;
+    gap: 10px; /* Reduce the gap between elements */
+}
+
+select {
+    width: 100%; /* Make the select element full width on smaller screens */
+    height: 40px;
+    padding: 0 10px; /* Reduce padding for better spacing */
+    border: 1px solid #ccc; /* Add a border for better styling */
+    outline: 0;
+    border-radius: 5px;
+    background: white;
+}
+
+button {
+    width: 100%; /* Make the button full width on smaller screens */
+    background: rgb(15, 66, 234);
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
