@@ -14,53 +14,57 @@
     justify-content: center;
     flex-direction: column;
     color: black;
-    padding: 20px; /* Add padding to the hero for better mobile spacing */
+    padding: 20px; /* Added padding for better mobile spacing */
 }
 
 .hero h1 {
-    font-size: 30px; /* Reduce font size for smaller screens */
+    font-size: 30px; /* Reduced font size for smaller screens */
     font-weight: 600;
-    margin-top: 0; /* Remove negative margin */
-    margin-bottom: 20px; /* Reduce margin for smaller screens */
+    margin-top: 0; /* Removed negative margin */
+    margin-bottom: 20px; /* Reduced margin for smaller screens */
     color: rgb(57, 55, 55);
-    text-align: center; /* Center the text */
+    text-align: center; /* Centered the text */
+}
+
+.hero h1 span {
+    color: rgb(15, 66, 234);;
 }
 
 textarea {
-    width: 100%; /* Make the textarea full width on smaller screens */
-    height: 200px; /* Reduce height for smaller screens */
+    width: 50%; /* Made the textarea full width on smaller screens */
+    height: 200px; /* Reduced height for smaller screens */
     background: white;
     color: black;
-    font-size: 16px; /* Reduce font size for smaller screens */
+    font-size: 16px; /* Reduced font size for smaller screens */
     border-radius: 15px;
     outline: 0;
     padding: 10px;
-    border: 1px solid #ccc; /* Add a border for better styling */
+    border: 1px solid #ccc; /* Added a border for better styling */
     resize: none;
-    margin-bottom: 20px;
+    margin-bottom: 20px; /* Reduced margin for smaller screens */
     font-weight: 500;
 }
 
 .row {
-    width: 100%; /* Make the row full width on smaller screens */
+    width: 100%; /* Made the row full width on smaller screens */
     display: flex;
-    flex-direction: column; /* Stack elements vertically on smaller screens */
+    flex-direction: column; /* Stacked elements vertically on smaller screens */
     align-items: center;
-    gap: 10px; /* Reduce the gap between elements */
+    gap: 10px; /* Reduced the gap between elements */
 }
 
 select {
-    width: 100%; /* Make the select element full width on smaller screens */
+    width: 50%; /* Made the select element full width on smaller screens */
     height: 40px;
-    padding: 0 10px; /* Reduce padding for better spacing */
-    border: 1px solid #ccc; /* Add a border for better styling */
+    padding: 0 10px; /* Reduced padding for better spacing */
+    border: 1px solid #ccc; /* Added a border for better styling */
     outline: 0;
     border-radius: 5px;
     background: white;
 }
 
 button {
-    width: 100%; /* Make the button full width on smaller screens */
+    width: 50%; /* Made the button full width on smaller screens */
     background: rgb(15, 66, 234);
     color: #fff;
     font-size: 16px;
@@ -72,3 +76,5 @@ button {
     display: flex;
     align-items: center;
 }
+
+ 
