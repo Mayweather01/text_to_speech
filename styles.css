@@ -20,7 +20,7 @@
 .hero h1 {
     font-size: 30px; /* Reduced font size for smaller screens */
     font-weight: 600;
-    margin-top: 0; /* Removed negative margin */
+    margin-top: 50px; /* Removed negative margin */
     margin-bottom: 20px; /* Reduced margin for smaller screens */
     color: rgb(57, 55, 55);
     text-align: center; /* Centered the text */
@@ -31,7 +31,7 @@
 }
 
 img {
-    width: 50px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -98,7 +98,7 @@ button {
     .hero h1 {
         font-size: 30px; /* Reduced font size for smaller screens */
         font-weight: 600;
-        margin-top: 0; /* Removed negative margin */
+        margin-top: 40px; /* Removed negative margin */
         margin-bottom: 20px; /* Reduced margin for smaller screens */
         color: rgb(57, 55, 55);
         text-align: center; /* Centered the text */
