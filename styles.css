@@ -110,8 +110,8 @@ button {
     }
 
     img {
-        width: 75px;
-        border-radius: 50px;
+        width: 100px;
+        border-radius: 50%;
     }
     
     textarea {
